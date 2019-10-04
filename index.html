@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<style>
+    html,body
+    {
+        margin: 0%;
+        padding: 0%;
+    }
+    *
+    {
+        box-sizing: border-box;
+    }
+    .main
+    {
+        width: 100%;
+        height: 100vh;
+        /* border: 5px solid black; */
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .main1
+    {
+        width: 100%;
+        height: 100%;
+        /* border: 5px solid red; */
+    }
+    .main2
+    {
+        width: 100%;
+        height: 100%;
+        /* border: 5px solid green; */
+        position: relative;
+    }
+    .nav
+    {
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid indianred; */
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+    .nav1
+    {
+        width: 10%;
+        height: 100%;
+        /* border: 2px solid indianred; */
+        font-size: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .nav2
+    {
+        width: 30%;
+        height: 100%;
+        /* border: 5px solid green; */
+        font-size: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 1%;
+    }
+    .nav3
+    {
+        width: 60%;
+        height: 100%;
+        /* border: 2px solid indianred; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .nav3>li
+    {
+        list-style: none;
+        /* border: 2px solid yellow; */
+        width: 60%;
+        height: 80%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav3>li>a
+    {
+        text-decoration: none;
+        /* border: 2px solid indigo; */
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+    .back
+    {
+        width: 100%;
+        height: 90%;
+        position: relative;
+    }
+    .backi
+    {
+        background-image: url('apartment-architectural-design-architecture-323780.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .overlay
+    {
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        background-color:#0c2461;
+        position: absolute;
+        opacity: 0.8;
+    }
+    .data
+    {
+        width: 70%;
+        height: 60%;
+        /* border: 2px solid black; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        
+    }
+    .data1
+    {
+        font-size: 60px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 12%;
+    }
+    .data2
+    {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+    }
+    .button
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .modification
+    {
+        text-decoration: none;
+        color: white;
+        width: 20%;
+        height: 10%;
+        background-color: rgb(247, 96, 85);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60%;
+    }
+    .def
+    {
+        width: 100%;
+        height: 30%;
+        /* border: 2px solid black; */
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .image
+    {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        /* border: 5px solid blueviolet;   */
+    }
+    .image1,.image2
+    {
+        width: 50%;
+        height: 100%;
+        /* border: 5px solid indigo; */
+        padding: 2%;
+    }
+    .mage1
+    {
+        width: 100%;
+        height: 20%;
+        /* border: 2px solid yellow; */
+    }
+    .content1
+    {
+        width: 100%;
+        height: 80%;
+        /* border: 2px solid red; */
+        background-image: url('splash.jpg');
+        background-size: 100% 100%;
+    }
+    .mage2
+    {
+        width: 100%;
+        height: 20%;
+        /* border: 2px solid yellow; */
+    }
+    .content2
+    {
+        width: 100%;
+        height: 80%;
+        /* border: 2px solid red; */
+        background-image: url('shady-forest.jpg');
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="nav">
+                <div class="nav1"><i class="fab fa-adn"></i></div>
+                <div class="nav2"><b>ARCHITECTURAL</b></div>
+                <div class="nav3">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">BLOG SINGLE</a></li>
+                    <li><a href="#">MORE</a></li>
+                </div>
+            </div>
+            <div class="back">
+                <div class="backi"></div>
+                <div class="overlay"></div>
+                <div class="data">
+                        <div class="data1">Architecture & Design</div>
+                        <div class="data2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, odio officiis facere harum, ullam numquam magni, in ratione voluptatum<br> rerum eos praesentium fugit est doloribus ipsa voluptatibus delectus. Minus, molestiae!</div>
+                        <div class="button"><a class="modification" href="#">Download</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="def">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur eveniet aut, adipisci nostrum eius dicta sed ut porro architecto illo.</div>
+            <div class="image">
+                <div class="image1">
+                    <div class="mage1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita itaque autem iure necessitatibus ratione tempora laborum. Delectus aut quaerat ipsum tenetur inventore distinctio officiis asperiores, odit tempora quisquam ipsam labore, dignissimos molestias tempore accusantium vero accusamus at facere ab nostrum?</div>
+                    <div class="content1"></div>
+                </div>
+                <div class="image2">
+                        <div class="mage2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet et hic ut dignissimos ullam consectetur eum sequi id saepe iure sapiente excepturi, laboriosam mollitia quis omnis? Ipsum sunt quibusdam hic laboriosam? Possimus quis odio tempora nobis dolores aliquid tenetur!</div>
+                        <div class="content2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
